@@ -1,0 +1,100 @@
+#main {
+     background-color: #fff2e6;
+}
+
+#title {
+     font-family: 'Fjalla One', sans-serif;
+     text-align: center;
+     font-size: 3rem;
+     padding-top: 45px;
+     padding-bottom: -45px;
+}
+
+#subtitle {
+     text-align: center;
+     font-size: 1.2rem;
+     font-family: 'Dancing Script', cursive;
+     font-family: 'Fjalla One', sans-serif;
+     color: purple;
+}
+
+/* Structuring the images in a flexbox to be responsive*/
+.container {
+    display: flex;
+    background: white;
+    padding: 20px;
+}
+
+.container > div {
+    flex: 1;
+}
+
+#image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 800px;
+}
+/* End of flexbox responsive structure*/
+
+#img-caption {
+    padding-top: 15px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    font-family: open sans;
+}
+
+#headline{
+    padding-bottom: 30px;
+
+}
+
+#tribute-info{
+    background: white;
+    padding: 8px;
+    border: 1px solid purple;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    letter-spacing: 0.2em;
+}
+
+ul {
+max-width: 550px;
+margin: 0 auto 50px auto;
+text-align: left;
+line-height: 1.6;
+}
+
+.birth {
+     line-height: 1.5;
+     font-family: open sans;
+}
+
+.quote {
+    padding-top: 25px;
+    text-align: center;
+    font-family: open sans;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3{
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 0.1em;
+    font-family: open sans;
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+
+a:hover {
+    color: green;
+}
